@@ -14,6 +14,8 @@
         <module>cloud-api-commons</module>
         <module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>
+	<module>cloud-eureka-server7003</module>
+	<module>cloud-eureka-server7004</module>
         <module>cloud-provider-payment8001</module>
         <module>cloud-provider-payment8002</module>
         <module>cloud-provider-payment8004</module>
@@ -36,12 +38,13 @@
         <module>cloudalibaba-consumer-nacos-order83</module>
         <module>cloudalibaba-config-nacos-client3377</module>
         <module>cloudalibaba-sentinel-service8401</module>
-        <module>cloudalibaba-consumer-nacos-order84</module>
-        <module>cloudalibaba-provider-payment9003</module>
-        <module>cloudalibaba-provider-payment9004</module>
-        <module>seata-order-service2001</module>
-        <module>seata-storage-service2002</module>
-        <module>seata-account-service2003</module>
+		<module>cloudalibaba-provider-payment9003</module>
+		<module>cloudalibaba-provider-payment9004</module>
+		<module>cloudalibaba-consumer-nacos-order84</module>
+		<module>seata-order-service2001</module>
+		<module>seata-storage-service2002</module>
+		<module>seata-account-service2003</module>
+		<module>cloud-jar-commons</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

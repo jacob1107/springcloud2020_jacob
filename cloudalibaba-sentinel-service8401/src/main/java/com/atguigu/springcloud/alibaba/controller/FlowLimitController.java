@@ -3,6 +3,9 @@ package com.atguigu.springcloud.alibaba.controller;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +20,9 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class FlowLimitController
 {
+	
+	private static final Logger log = LoggerFactory.getLogger(FlowLimitController.class);
+
     @GetMapping("/testA")
     public String testA()
     {

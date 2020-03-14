@@ -7,6 +7,9 @@ import com.atguigu.springcloud.alibaba.service.OrderService;
 import com.atguigu.springcloud.alibaba.service.StorageService;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -19,6 +22,9 @@ import javax.annotation.Resource;
 @Slf4j
 public class OrderServiceImpl implements OrderService
 {
+	
+	private static final Logger log = LoggerFactory.getLogger(OrderServiceImpl.class);
+
     @Resource
     private OrderDao orderDao;
     @Resource

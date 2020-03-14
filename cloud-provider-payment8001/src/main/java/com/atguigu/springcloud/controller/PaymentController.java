@@ -4,6 +4,9 @@ import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +24,9 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class PaymentController
 {
+	
+	private static final Logger log = LoggerFactory.getLogger(PaymentController.class);
+
     @Resource
     private PaymentService paymentService;
 
