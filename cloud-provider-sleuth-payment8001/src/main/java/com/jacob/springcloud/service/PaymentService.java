@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.service;
+package com.jacob.springcloud.service;
 
 import org.springframework.web.bind.annotation.PathVariable;
 

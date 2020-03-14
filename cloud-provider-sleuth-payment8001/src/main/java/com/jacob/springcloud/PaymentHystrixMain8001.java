@@ -1,4 +1,4 @@
-package com.atguigu.springcloud;
+package com.jacob.springcloud;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.SpringApplication;

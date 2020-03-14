@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.controller;
+package com.jacob.springcloud.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-import com.atguigu.springcloud.lb.LoadBalancer2;
+import com.jacob.springcloud.lb.LoadBalancer2;
 
 import cn.spectrumrpc.springcloud.entities.CommonResult;
 import cn.spectrumrpc.springcloud.entities.Payment;

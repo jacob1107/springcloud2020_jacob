@@ -1,4 +1,4 @@
-package com.atguigu.myrule;
+package com.jacob.myrule;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;

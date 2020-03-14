@@ -1,8 +1,8 @@
-package com.atguigu.springcloud.service.impl;
+package com.jacob.springcloud.service.impl;
 
-import com.atguigu.springcloud.service.PaymentService;
 import cn.hutool.core.util.IdUtil;
 
+import com.jacob.springcloud.service.PaymentService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.stereotype.Service;
