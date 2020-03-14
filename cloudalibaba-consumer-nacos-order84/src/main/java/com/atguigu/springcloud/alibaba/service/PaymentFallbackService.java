@@ -1,8 +1,9 @@
 package com.atguigu.springcloud.alibaba.service;
 
-import com.atguigu.springcloud.entities.CommonResult;
-import com.atguigu.springcloud.entities.Payment;
 import org.springframework.stereotype.Component;
+
+import com.jacob.springcloud.entities.CommonResult;
+import com.jacob.springcloud.entities.Payment;
 
 /**
  * @auther zzyy
