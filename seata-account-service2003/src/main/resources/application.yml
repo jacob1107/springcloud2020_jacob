@@ -8,15 +8,15 @@ spring:
     alibaba:
       seata:
         tx-service-group: fsp_tx_group
+        
     nacos:
       discovery:
         server-addr: localhost:8848
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/seata_account
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql33061.com:3306/seata_account?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: 123456
-
+    password: 123456
 feign:
   hystrix:
     enabled: false
@@ -28,5 +28,7 @@ logging:
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
+  
+
 
 

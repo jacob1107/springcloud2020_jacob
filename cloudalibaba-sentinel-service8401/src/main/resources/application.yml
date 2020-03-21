@@ -20,6 +20,7 @@ spring:
             groupId: DEFAULT_GROUP
             data-type: json
             rule-type: flow
+            namespace: 2c445d77-e82b-462c-9714-4b7cd8955873
 
 management:
   endpoints:
