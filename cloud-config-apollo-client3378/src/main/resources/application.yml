@@ -1,0 +1,27 @@
+# nacos配置
+server:
+  port: 3378
+
+spring:
+  application:
+    name: apollo-config-client
+
+#******apollo参数配置******#
+app:
+  id: jacob_apollo
+apollo:
+  meta: http://localhost:8080
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true    
+
+      
+eureka:
+  instance:
+    hostname: apollo-config-client
+  client: #服务提供者provider注册进eureka服务列表内
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:8080/eureka      
