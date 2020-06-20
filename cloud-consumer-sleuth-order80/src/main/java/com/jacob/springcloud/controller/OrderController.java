@@ -11,10 +11,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import com.jacob.springcloud.entities.CommonResult;
+import com.jacob.springcloud.entities.Payment;
 import com.jacob.springcloud.lb.LoadBalancer2;
 
-import cn.spectrumrpc.springcloud.entities.CommonResult;
-import cn.spectrumrpc.springcloud.entities.Payment;
+
 import lombok.extern.slf4j.Slf4j;
 
 /**
